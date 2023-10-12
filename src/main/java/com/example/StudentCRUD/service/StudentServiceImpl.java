@@ -13,7 +13,7 @@ public class StudentServiceImpl implements StudentService{
     @Autowired
     private StudentRepo studentRepo;
     @Override
-    public Student insertStudent(Student student) {
+    public String insertStudent(Student student) {
         return studentRepo.insertStudent(student);
     }
 

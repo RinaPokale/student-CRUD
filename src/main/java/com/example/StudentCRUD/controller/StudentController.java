@@ -16,7 +16,7 @@ public class StudentController {
 
     //Insert --> create
     @PostMapping("/student")
-    private Student insertStudent(@RequestBody Student student){
+    private String insertStudent(@RequestBody Student student){
         return studentService.insertStudent(student);
     }
 

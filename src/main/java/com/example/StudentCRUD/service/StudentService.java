@@ -5,7 +5,7 @@ import com.example.StudentCRUD.model.Student;
 import java.util.List;
 
 public interface StudentService {
-    Student insertStudent(Student student);
+    String insertStudent(Student student);
 
     Student getStudent(int rollNumber);
 
